@@ -39,7 +39,7 @@ Please verify the location provided for argument filepath
 ### Positive scenarios
 ./mvnw spring-boot:run -Dspring-boot.run.arguments=--filepath=PROJECT_DIR/src/test/resources/sample.txt
 
-Expect:
-et: 6
-eget: 5
+Expect:<br/>
+et: 6<br/>
+eget: 5<br/>
 ...
