@@ -10,7 +10,7 @@ In the commands below, replace the placeholder PROJECT_DIR with the location whe
 ## To run
 
 ### Cmd line option
-./mvnw clean spring-boot:run -Dspring-boot.run.arguments=--filepath=PROJECT_DIR/src/test/resources/sample.txt
+./mvnw clean spring-boot:run -Dspring-boot.run.arguments=--filepath=PROJECT_DIR/src/test/resources/sample.txt -Dspring-boot.run.profiles=production
 
 ### IntelliJ option
 Create an Application Run Config:
