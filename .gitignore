@@ -6,7 +6,6 @@
 *.pydevproject
 .metadata
 .gradle
-.mvn
 bin/
 *.tmp
 *.bak
