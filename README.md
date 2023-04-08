@@ -11,6 +11,10 @@ In the commands below, replace the placeholder PROJECT_DIR with the location whe
 ## To run
 
 ### Cmd line option
+#### Using the built archive
+java -jar target/wordcount-0.0.1-SNAPSHOT.jar --filepath=PROJECT_DIR/src/test/resources/sample.txt --spring.profiles.active=production 
+
+#### Using the Maven Wrapper
 ./mvnw clean spring-boot:run -Dspring-boot.run.arguments=--filepath=PROJECT_DIR/src/test/resources/sample.txt -Dspring-boot.run.profiles=production
 
 ### IntelliJ option
